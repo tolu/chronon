@@ -9,6 +9,8 @@ A qauntum of a time tracker and record keeper.
 * Make pretty charts
 * Have touch-friendly inputs
 
+### Links
+* [stepbystep_tutorial_to_build_a_modern_javascript](https://www.reddit.com/r/node/comments/5t2hc8/stepbystep_tutorial_to_build_a_modern_javascript/ddkk1v7/)
 
 ## License
 MIT: https://tolu.mit-license.org/
