@@ -1,0 +1,31 @@
+{
+  "name": "chronon",
+  "version": "1.0.0",
+  "description": "time keeper deluxe",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify main.js > public/bundle.js",
+    "watch": "watchify main.js -o public/bundle.js -dv",
+    "start": "ecstatic public -p 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolu/chronon.git"
+  },
+  "keywords": [
+    "time tracker",
+    "reports"
+  ],
+  "author": "Tobias Lundin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tolu/chronon/issues"
+  },
+  "homepage": "https://github.com/tolu/chronon#readme",
+  "dependencies": {
+    "browserify": "^14.0.0",
+    "ecstatic": "^2.1.0",
+    "watchify": "^3.9.0",
+    "yo-yo": "^1.4.0"
+  }
+}
